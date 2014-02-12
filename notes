@@ -2,4 +2,14 @@ notes
 
 11/02/2014 18:55:01 creating git repository https://github.com/albertorugnone/curricula
 
-11/02/2014 18:55:01 installing  http://docs.vagrantup.com/
+11/02/2014 18:55:01 installing  			http://docs.vagrantup.com/
+
+
+11/02/2014 22:22:35 installing bower global https://github.com/bower/bower
+11/02/2014 22:24:54 installi yeoman 		http://yeoman.io/
+		problem with last version of nodejs and ubuntu 
+		solution found here https://github.com/yeoman/yeoman/issues/1281 :
+		sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+
+11/02/2014 22:34:48 install Markdown in sublimetext (to repeat on vm) http://en.wikipedia.org/wiki/Markdown
