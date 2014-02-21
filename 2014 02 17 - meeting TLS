@@ -1,0 +1,80 @@
+2014 02 17 - meeting TLS
+
+**HW**
+Aggiunto rating degli eventi. Funziona. RImane in memoria, non è condiviso sulla shared library
+Aggiunta un'animazione sullo slide show
+Expert review passata, pochi commenti
+Documento su google docs
+
+Marco adesso guida GWT
+Marco si è allineato su GWT
+Poi JSF
+
+** Opera - 
+-  necessità di affiancamento
+
+**Slovenia
+Contattato Jure - entro la metà della settimana completeranno la nuova interfaccia su Mobile, che mostra il dato dell'attivià con un valore tra 0-1 (un indicatore di attività) (sarebbe da capire il significato) e il Breathing Rate
+
+Albe - riprendere il discorso su Slovenia.
+
+Hanno mandato i dati a Jure per l'analisi, troppo ECG
+
+Jure produrrà della sua manualistica
+La prossima settimana occorre che venga fatto un passaggio con loro per presentare la soluzione e le cose nuove fatte.
+Occorre comprendere come la partnership sia da un punto di vista commerciale che tecnico.
+La parte di visualizzazione dei dati su Android dovrebbe essere una nostra parte importante.
+Occorre portare pch verso Android.
+
+Obiettivo : in questi sei mesi occorre che ci siano delle cose da mostrare lato interfaccia Android
+Occorre con Lorenzo verificare i todos.
+
+Cose in sospeso con Jure: Elena deve riprenderle. Occorre riprendere i lavori con Jure che abbiamo 
+
+**Cometa Siena
+
+Applicazione è stata messa su internet per Siena.
+Grande quantità di lavoro ancora da fare. Francesco sta facendo pezzettino per pezzettino il monte del lavoro.
+Careggi : trumentazione politica, mostrare tutta la documentazione in modo da mostrare che abbiamo fatto quello che ci è stato chiesto. Applicazione funzionante.
+Davide Paoletti, stagista della Polverelli. Molto bravo, ci para molto lavoro. Collaborativo.
+Fine mese : pianificazione
+Domanda : budget da Careggi, come confidenza è buona. E' tutto bloccato. Non sembra possibile che possa essere interrotto
+Capito su TIX :  stanno cercando di fare un cloning della server farm  a Careggi al TIX. Ci hanno fatto una serie di richieste (compilazione moudli etc..).
+
+** VEQ
+Il VEQ anche deve essere portato sul TIX.
+portare il DB SQL Server all'ultima versione in modo che possa essere sincronizzato 
+Occorre metterli in contatto con Taddei!! Che Taddei ci tenga informati, che Borsotti ci tenga informati.
+Lore - Chiedere a Taddei di venire qui, lo si informa e  gli si fornisce molti riferimenti.
+
+**Veritas
+20-21 Marzo Review. Occorre andare a far vedere.
+Dovremmo presentare i risultati finali
+
+**Ancona
+DGHE EM - 
+**MULTIUTENZA (Lore)
+un caregiver può vedere solo i dispositivi a lui assegnati.
+Dalla lista dei dispositivi attacca e toglie dispositivi.
+Aggiunto dispositivo kit che attacca e toglie dispositivi in base al nome.
+Al caregiver si fornisce un aggiunto di ubn kit. Da capire come modificare il dominio
+**FONENDOSCOPIO
+Francesco - da aggiungere il parser a SteathEasy
+Modificata libreria per risolvere problemi di Crush
+**AND
+cercare di eliminare il problema della misura che fallisce
+**PCH
+Dare a VirtualDoctor permessi di amministratore
+**MEETING 
+Da fare un incontro via skype per verificare quando occorre la consegna (il 26 è data)
+**
+
+
+
+
+Altri TODO
+-  Elena : ci manda un aggiornamento sui mesi su Achievo
+-  Ritirare su Abitare Mediterraneo
+-  Vaid per avere un e.commerce
+-  Sito di Cent
+
