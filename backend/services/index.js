@@ -6,7 +6,7 @@ var version = '/v1';
 
 var paths = {
   "data" : {
-    "alive" : "./data/alive"
+    "alive" : "./backend/data/alive.json"
   },
   "services" : {
     "alive" : version + "/alive"
@@ -18,10 +18,19 @@ services.get(paths.services.alive, function(req, res) {
  fs.readFile(paths.data.alive, function(err, data)   {
     if(err) {
       console.log(err);
-      res.status(404).send(paths.data.alive + ' not found');
+      res.status(404)
+          .set({
+            'Content-Type': 'text/plain',
+          })
+          .send(paths.data.alive + ' not found')
+          .send(err);
     } else {
       console.log(data);
-       res.status(202).send(data);
+      res.status(202)
+          .set({
+            'Content-Type': 'text/plain',
+            })
+          .send(data);
     }
   });
 });

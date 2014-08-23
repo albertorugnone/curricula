@@ -1,17 +1,18 @@
-gulp       = require 'gulp'
-gutil      = require 'gulp-util'
-connect    = require 'gulp-connect'
-gulpif     = require 'gulp-if'
-coffee     = require 'gulp-coffee'
-concat     = require 'gulp-concat'
-tplCache   = require 'gulp-angular-templatecache'
-jade       = require 'gulp-jade'
-less       = require 'gulp-less'
-protractor = require('gulp-protractor').protractor
-sourcemaps = require 'gulp-sourcemaps'
-ngClassify = require 'gulp-ng-classify'
-coffeelint = require 'gulp-coffeelint'
-rimraf     = require 'gulp-rimraf'
+gulp        = require 'gulp'
+gutil       = require 'gulp-util'
+connect     = require 'gulp-connect'
+gulpif      = require 'gulp-if'
+coffee      = require 'gulp-coffee'
+concat      = require 'gulp-concat'
+tplCache    = require 'gulp-angular-templatecache'
+jade        = require 'gulp-jade'
+less        = require 'gulp-less'
+protractor  = require('gulp-protractor').protractor
+sourcemaps  = require 'gulp-sourcemaps'
+ngClassify  = require 'gulp-ng-classify'
+coffeelint  = require 'gulp-coffeelint'
+rimraf      = require 'gulp-rimraf'
+nodemon     = require 'gulp-nodemon'
 
 paths =
   appJs: ['./app/**/*.coffee','./app/**/*.js']
@@ -51,7 +52,7 @@ gulp.task 'appJs',  ->
       ##for windows
       return appName: 'survey.sidebar' if file.path.indexOf('components\\sidebar') isnt -1
       return appName: 'survey.translator' if file.path.indexOf('components\\translator') isnt -1
-      return appName: 'survey.service' if file.path.indexOf('components\\service') isnt -1      
+      return appName: 'survey.service' if file.path.indexOf('components\\service') isnt -1
       ##fol unix
       return appName: 'survey.sidebar' if file.path.indexOf('components/sidebar') isnt -1
       return appName: 'survey.translator' if file.path.indexOf('components/translator') isnt -1
@@ -119,6 +120,19 @@ gulp.task 'connect', ->
         )()
       ]
 
+gulp.task "backend", ->
+  nodemon(
+    script: "backend/www"
+    ext: "html js json"
+    nodeArgs: ["--debug"]
+    env:
+      NODE_ENV: "development"
+  ).on "restart", ->
+    console.log "restarted!"
+    return
+  return
+
+
 gulp.task 'watch', ->
   # reload connect server on built file change
   gulp.watch [
@@ -148,7 +162,7 @@ gulp.task 'libMap', ->
   gulp.src [
     './bower_components/bootstrap/dist/css/bootstrap.css.map'
   ]
-  .pipe gulp.dest './dist/css'  
+  .pipe gulp.dest './dist/css'
 
 gulp.task 'default', [
   'appJs',
@@ -161,5 +175,6 @@ gulp.task 'default', [
   'fonts',
   'libMap',
   'connect',
-  'watch'
+  'watch',
+  'backend'
 ]
