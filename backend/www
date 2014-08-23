@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+// domain to avoid node crushing in case of errors
+// - see also http://stackoverflow.com/questions/5999373/how-do-i-prevent-node-js-from-crashing-try-catch-doesnt-work
+// - http://nodejs.org/docs/latest/api/process.html#process%5fevent%5funcaughtexception
+// - shapeshed.com/uncaught-exceptions-in-node/
+var domain = require('domain'),
+d = domain.create();
+
+d.on('error', function(err) {
+  console.error(err);
+});
+
+var debug = require('debug')('backend');
+var app = require('./app');
+
+app.set('port', process.env.PORT || 8001);
+
+
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
+

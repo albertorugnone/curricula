@@ -1,0 +1,121 @@
+{
+  "data": {
+    "sap_code": "",
+    "dms": "",
+    "date_from": 11041978,
+    "source": "",
+    "tpdlcust": "",
+    "tpds": [],
+    "measure_unit": "",
+    "park_area": 0.00,
+    "rec_type": "",
+    "suprcpmlt": 0.00,
+    "suprcpduc": 0.00,
+    "serv_type": "",
+    "supwkmlt": 0.00,
+    "supwkduc": 0.00,
+    "nlft": "0000000000",
+    "nlftduc": "0000000000",
+    "supwrhmlt": 0.00,
+    "supstrbk": 0.00,
+    "supwrhduc": 0.00,
+    "suptot": 0.00
+  },
+  "addresses": [
+    {
+      "address_type": "XXDEFAULT",
+      "street": "VIA PAGANELLA N. 42/44",
+      "house_number": "",
+      "postal_code": "38015",
+      "city": "LAVIS",
+      "region": "TN",
+      "country_iso": "IT",
+      "telephone": "045/8015873",
+      "fax": "045/8015842",
+      "e_mail": "dealer@ducati.com",
+      "uri": "www.dealerducati.com"
+    }
+  ],
+  "social_data": {
+    "facebook": "www.facebook.com/dealerDucati",
+    "twitter": "www.twitter.com/dealerDucati",
+    "social": "www.netlog.com/dealerDucati"
+  },
+  "attachments": [
+    {
+      "logical_name": "",
+      "physical_name": "",
+      "mime_type": "",
+      "url": "",
+      "file_content": []
+    }
+  ],
+  "openings": [],
+  "vacations": [],
+  "returns": [
+    {
+      "id": "ZPET_WS",
+      "type": "W",
+      "number": "033",
+      "message": "Nessun Account su Social Media trovato per il Dealer \u0026:",
+      "log_no": "",
+      "log_msg_no": "000000",
+      "message_v1": "0000100018",
+      "message_v2": "",
+      "message_v3": "",
+      "message_v4": "",
+      "parameter": "",
+      "row": 0,
+      "field": "",
+      "system": ""
+    },
+    {
+      "id": "ZPET_WS",
+      "type": "W",
+      "number": "002",
+      "message": "Partner 0000100018: Nessuna foto presente",
+      "log_no": "",
+      "log_msg_no": "000000",
+      "message_v1": "0000100018",
+      "message_v2": "",
+      "message_v3": "",
+      "message_v4": "",
+      "parameter": "",
+      "row": 0,
+      "field": "",
+      "system": ""
+    },
+    {
+      "id": "ZPET_WS",
+      "type": "W",
+      "number": "034",
+      "message": "Nessun orario di apertura trovato per il Dealer \u0026:",
+      "log_no": "",
+      "log_msg_no": "000000",
+      "message_v1": "0000100018",
+      "message_v2": "",
+      "message_v3": "",
+      "message_v4": "",
+      "parameter": "",
+      "row": 0,
+      "field": "",
+      "system": ""
+    },
+    {
+      "id": "ZPET_WS",
+      "type": "W",
+      "number": "035",
+      "message": "Nessun periodo di chiusura trovato per il Dealer \u0026:",
+      "log_no": "",
+      "log_msg_no": "000000",
+      "message_v1": "0000100018",
+      "message_v2": "",
+      "message_v3": "",
+      "message_v4": "",
+      "parameter": "",
+      "row": 0,
+      "field": "",
+      "system": ""
+    }
+  ]
+}

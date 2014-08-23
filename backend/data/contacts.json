@@ -1,0 +1,116 @@
+{ "contacts" :
+  [
+  {
+    "id": 0,
+    "name": "Finch Jennings",
+    "items": [
+      {
+        "id": 0,
+        "type": "email",
+        "value": "finchjennings@ultrimax.com"
+      },
+      {
+        "id": 1,
+        "type": "email",
+        "value": "finchjennings@ultrimax.com"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Cruz Tillman",
+    "items": [
+      {
+        "id": 0,
+        "type": "email",
+        "value": "cruztillman@ultrimax.com"
+      },
+      {
+        "id": 1,
+        "type": "email",
+        "value": "cruztillman@ultrimax.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Rodriquez Blake",
+    "items": [
+      {
+        "id": 0,
+        "type": "email",
+        "value": "rodriquezblake@ultrimax.com"
+      },
+      {
+        "id": 1,
+        "type": "email",
+        "value": "rodriquezblake@ultrimax.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Rene Davidson",
+    "items": [
+      {
+        "id": 0,
+        "type": "email",
+        "value": "renedavidson@ultrimax.com"
+      },
+      {
+        "id": 1,
+        "type": "email",
+        "value": "renedavidson@ultrimax.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Jeannette Merritt",
+    "items": [
+      {
+        "id": 0,
+        "type": "email",
+        "value": "jeannettemerritt@ultrimax.com"
+      },
+      {
+        "id": 1,
+        "type": "email",
+        "value": "jeannettemerritt@ultrimax.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Howell Franklin",
+    "items": [
+      {
+        "id": 0,
+        "type": "email",
+        "value": "howellfranklin@ultrimax.com"
+      },
+      {
+        "id": 1,
+        "type": "email",
+        "value": "howellfranklin@ultrimax.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Gibson Salas",
+    "items": [
+      {
+        "id": 0,
+        "type": "email",
+        "value": "gibsonsalas@ultrimax.com"
+      },
+      {
+        "id": 1,
+        "type": "email",
+        "value": "gibsonsalas@ultrimax.com"
+      }
+    ]
+  }
+]
+}

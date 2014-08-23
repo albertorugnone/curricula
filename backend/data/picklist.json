@@ -1,0 +1,3732 @@
+{
+  "ZZPET_BUSINESS": [
+    {
+      "value": "SLSR",
+      "description": "Vendita e assistenza"
+    },
+    {
+      "value": "SRVC",
+      "description": "Solo Service"
+    },
+    {
+      "value": "APPR",
+      "description": "Solo Abbigliamento"
+    }
+  ],
+  "ZZPET_SIZE": [
+    {
+      "value": "Z001",
+      "description": "0-19 Extra Small"
+    },
+    {
+      "value": "Z002",
+      "description": "20-49 Small"
+    },
+    {
+      "value": "Z003",
+      "description": "50-99 Medium"
+    },
+    {
+      "value": "Z004",
+      "description": "100+ Big"
+    }
+  ],
+  "ZZPET_COMPLCI": [
+    {
+      "value": "Z001",
+      "description": "Totale"
+    },
+    {
+      "value": "Z002",
+      "description": "Parziale"
+    },
+    {
+      "value": "Z003",
+      "description": "Nulla"
+    }
+  ],
+  "ADR_KIND": [
+    {
+      "value": "BILL_TO",
+      "description": "Indirizzo fattura"
+    },
+    {
+      "value": "SHIP_TO",
+      "description": "Indirizzo di consegna"
+    },
+    {
+      "value": "XXDEFAULT",
+      "description": "Indirizzo standard"
+    },
+    {
+      "value": "ZSERVICE",
+      "description": ""
+    }
+  ],
+  "SEX": [
+    {
+      "value": "1",
+      "description": "Femmina"
+    },
+    {
+      "value": "2",
+      "description": "Maschio"
+    }
+  ],
+  "ZZPET_TESTRIDE": [
+    {
+      "value": "YES",
+      "description": "Si"
+    },
+    {
+      "value": "NO",
+      "description": "No"
+    }
+  ],
+  "ZZPET_SOFTOP": [
+    {
+      "value": "YES",
+      "description": "Si"
+    },
+    {
+      "value": "NO",
+      "description": "No"
+    }
+  ],
+  "ZZPET_ACCOUNTING": [
+    {
+      "value": "Z001",
+      "description": "Monobrand"
+    },
+    {
+      "value": "Z002",
+      "description": "Multibrand"
+    }
+  ],
+  "ZZPET_LVCMPCISRV": [
+    {
+      "value": "Z001",
+      "description": "Totale"
+    },
+    {
+      "value": "Z002",
+      "description": "Parziale"
+    },
+    {
+      "value": "Z003",
+      "description": "Nulla"
+    }
+  ],
+  "ZZPET_TPDLCUST": [
+    {
+      "value": "MONO",
+      "description": "Monobrand"
+    },
+    {
+      "value": "MULT",
+      "description": "Multibrand"
+    }
+  ],
+  "ZZ_ABTNR": [
+    {
+      "value": "Z001",
+      "description": "New Bikes"
+    },
+    {
+      "value": "Z002",
+      "description": "Pre-owned"
+    },
+    {
+      "value": "Z003",
+      "description": "Accessories"
+    },
+    {
+      "value": "Z004",
+      "description": "Spare Parts"
+    },
+    {
+      "value": "Z005",
+      "description": "Apparel"
+    },
+    {
+      "value": "Z006",
+      "description": "Financial Services"
+    },
+    {
+      "value": "Z007",
+      "description": "Marketing"
+    },
+    {
+      "value": "Z008",
+      "description": "Administrative"
+    },
+    {
+      "value": "Z009",
+      "description": "Other"
+    },
+    {
+      "value": "Z010",
+      "description": "Service"
+    }
+  ],
+  "ZZPET_LVCPCISHOW": [
+    {
+      "value": "Z001",
+      "description": "Totale"
+    },
+    {
+      "value": "Z002",
+      "description": "Parziale"
+    },
+    {
+      "value": "Z003",
+      "description": "Nulla"
+    }
+  ],
+  "ZZPET_LVCIINS": [
+    {
+      "value": "Z001",
+      "description": "Totale"
+    },
+    {
+      "value": "Z002",
+      "description": "Parziale"
+    },
+    {
+      "value": "Z003",
+      "description": "Nulla"
+    }
+  ],
+  "ZZ_PAFKT": [
+    {
+      "value": "Z001",
+      "description": "Venditore"
+    },
+    {
+      "value": "Z002",
+      "description": "Manager"
+    },
+    {
+      "value": "Z003",
+      "description": "Back office"
+    },
+    {
+      "value": "Z004",
+      "description": "Magazziniere"
+    },
+    {
+      "value": "Z005",
+      "description": "Accettatore"
+    },
+    {
+      "value": "Z006",
+      "description": "Receptionist"
+    },
+    {
+      "value": "Z007",
+      "description": "Capo"
+    },
+    {
+      "value": "Z008",
+      "description": "Meccanico"
+    },
+    {
+      "value": "Z009",
+      "description": "Titolare"
+    }
+  ],
+  "ZZPET_SALCISHOW": [
+    {
+      "value": "Z001",
+      "description": "Attivo"
+    },
+    {
+      "value": "Z002",
+      "description": "Inattivo"
+    }
+  ],
+  "MODE": [
+    {
+      "value": "01",
+      "description": "Creazione"
+    },
+    {
+      "value": "02",
+      "description": "Modifica"
+    }
+  ],
+  "ZZPET_TPSHCUST": [
+    {
+      "value": "Z001",
+      "description": "Solo Ducati - Stabile Dedicato"
+    },
+    {
+      "value": "Z002",
+      "description": "Solo Ducati - Stabile Condiviso"
+    },
+    {
+      "value": "Z003",
+      "description": "Con Altri Brand - Partizione Fisica"
+    },
+    {
+      "value": "Z004",
+      "description": "Con Altri Brand - Nessuna Partizione Fisica"
+    }
+  ],
+  "LEVEL": [
+    {
+      "value": "SV",
+      "description": ""
+    },
+    {
+      "value": "SH",
+      "description": ""
+    },
+    {
+      "value": "AC",
+      "description": ""
+    },
+    {
+      "value": "CI",
+      "description": ""
+    }
+  ],
+  "ZZPET_SALCI": [
+    {
+      "value": "ACT",
+      "description": "Attivo"
+    },
+    {
+      "value": "INAC",
+      "description": "Inattivo"
+    }
+  ],
+  "LANGU": [
+    {
+      "value": "IT",
+      "description": "Italiano"
+    },
+    {
+      "value": "EN",
+      "description": "Inglese"
+    }
+  ],
+  "ZZPET_OUTFITCI": [
+    {
+      "value": "EXC1",
+      "description": "Exclusive 1"
+    },
+    {
+      "value": "EXC2",
+      "description": "Exclusive 2"
+    },
+    {
+      "value": "MONO",
+      "description": "Mono"
+    },
+    {
+      "value": "MLTA",
+      "description": "Multi A"
+    },
+    {
+      "value": "MLTB",
+      "description": "Multi B"
+    }
+  ],
+  "ZZPET_SALCIINS": [
+    {
+      "value": "Z001",
+      "description": "Attivo"
+    },
+    {
+      "value": "Z002",
+      "description": "Inattivo"
+    }
+  ],
+  "ZZPET_SALCISRV": [
+    {
+      "value": "Z001",
+      "description": "Attivo"
+    },
+    {
+      "value": "Z002",
+      "description": "Inattivo"
+    }
+  ],
+  "REGION": [
+    {
+      "value": "00",
+      "description": "Capital Federal"
+    },
+    {
+      "value": "01",
+      "description": "Buenos Aires"
+    },
+    {
+      "value": "02",
+      "description": "Catamarca"
+    },
+    {
+      "value": "03",
+      "description": "Córdoba"
+    },
+    {
+      "value": "04",
+      "description": "Corrientes"
+    },
+    {
+      "value": "05",
+      "description": "Entre Rios"
+    },
+    {
+      "value": "06",
+      "description": "Jujuy"
+    },
+    {
+      "value": "07",
+      "description": "Mendoza"
+    },
+    {
+      "value": "08",
+      "description": "La Rioja"
+    },
+    {
+      "value": "09",
+      "description": "Salta"
+    },
+    {
+      "value": "10",
+      "description": "San Juan"
+    },
+    {
+      "value": "11",
+      "description": "San Luis"
+    },
+    {
+      "value": "12",
+      "description": "Santa Fé"
+    },
+    {
+      "value": "13",
+      "description": "Santiago del Estero"
+    },
+    {
+      "value": "14",
+      "description": "Tucumán"
+    },
+    {
+      "value": "16",
+      "description": "Chaco"
+    },
+    {
+      "value": "17",
+      "description": "Chubut"
+    },
+    {
+      "value": "18",
+      "description": "Formosa"
+    },
+    {
+      "value": "19",
+      "description": "Misiones"
+    },
+    {
+      "value": "20",
+      "description": "Neuquen"
+    },
+    {
+      "value": "21",
+      "description": "La Pampa"
+    },
+    {
+      "value": "22",
+      "description": "Rio Negro"
+    },
+    {
+      "value": "23",
+      "description": "Santa Cruz"
+    },
+    {
+      "value": "24",
+      "description": "Tierra de Fuego"
+    },
+    {
+      "value": "B",
+      "description": "Burgenland"
+    },
+    {
+      "value": "K",
+      "description": "Carinzia"
+    },
+    {
+      "value": "NOE",
+      "description": "Austria inferiore"
+    },
+    {
+      "value": "OOE",
+      "description": "Austria superiore"
+    },
+    {
+      "value": "S",
+      "description": "Salisburgo"
+    },
+    {
+      "value": "ST",
+      "description": "Stiria"
+    },
+    {
+      "value": "T",
+      "description": "Tirolo"
+    },
+    {
+      "value": "V",
+      "description": "Vorarlberg"
+    },
+    {
+      "value": "W",
+      "description": "Vienna"
+    },
+    {
+      "value": "ACT",
+      "description": "Aust Capital Terr"
+    },
+    {
+      "value": "NSW",
+      "description": "New South Wales"
+    },
+    {
+      "value": "NT",
+      "description": "Northern Territory"
+    },
+    {
+      "value": "QLD",
+      "description": "Queensland"
+    },
+    {
+      "value": "SA",
+      "description": "South Australia"
+    },
+    {
+      "value": "TAS",
+      "description": "Tasmania"
+    },
+    {
+      "value": "VIC",
+      "description": "Victoria"
+    },
+    {
+      "value": "WA",
+      "description": "West Australia"
+    },
+    {
+      "value": "BA",
+      "description": "Bosnia-Erzeg."
+    },
+    {
+      "value": "BD",
+      "description": "Bangladesh"
+    },
+    {
+      "value": "AC",
+      "description": "Acre"
+    },
+    {
+      "value": "AL",
+      "description": "Alagoas"
+    },
+    {
+      "value": "AM",
+      "description": "Amazonas"
+    },
+    {
+      "value": "AP",
+      "description": "Amapá"
+    },
+    {
+      "value": "CE",
+      "description": "Ceará"
+    },
+    {
+      "value": "DF",
+      "description": "Brasília"
+    },
+    {
+      "value": "ES",
+      "description": "Espírito Santo"
+    },
+    {
+      "value": "GO",
+      "description": "Goiás"
+    },
+    {
+      "value": "MA",
+      "description": "Maranhão"
+    },
+    {
+      "value": "MG",
+      "description": "Minas Gerais"
+    },
+    {
+      "value": "MS",
+      "description": "Mato Grosso do Sul"
+    },
+    {
+      "value": "MT",
+      "description": "Mato Grosso"
+    },
+    {
+      "value": "PA",
+      "description": "Pará"
+    },
+    {
+      "value": "PB",
+      "description": "Paraíba"
+    },
+    {
+      "value": "PE",
+      "description": "Pernambuco"
+    },
+    {
+      "value": "PI",
+      "description": "Piauí"
+    },
+    {
+      "value": "PR",
+      "description": "Paraná"
+    },
+    {
+      "value": "RJ",
+      "description": "Rio de Janeiro"
+    },
+    {
+      "value": "RN",
+      "description": "Rio Grande do Norte"
+    },
+    {
+      "value": "RO",
+      "description": "Rondônia"
+    },
+    {
+      "value": "RR",
+      "description": "Roraima"
+    },
+    {
+      "value": "RS",
+      "description": "Rio Grande do Sul"
+    },
+    {
+      "value": "SC",
+      "description": "Santa Catarina"
+    },
+    {
+      "value": "SE",
+      "description": "Sergipe"
+    },
+    {
+      "value": "SP",
+      "description": "São Paulo"
+    },
+    {
+      "value": "TO",
+      "description": "Tocantins"
+    },
+    {
+      "value": "AB",
+      "description": "Alberta"
+    },
+    {
+      "value": "BC",
+      "description": "Columbia Britannica"
+    },
+    {
+      "value": "MB",
+      "description": "Manitoba"
+    },
+    {
+      "value": "NB",
+      "description": "New Brunswick"
+    },
+    {
+      "value": "NL",
+      "description": "Terranova e Labr."
+    },
+    {
+      "value": "NS",
+      "description": "Nuova Scozia"
+    },
+    {
+      "value": "NU",
+      "description": "Nunavut"
+    },
+    {
+      "value": "ON",
+      "description": "Ontario"
+    },
+    {
+      "value": "QC",
+      "description": "Québec"
+    },
+    {
+      "value": "SK",
+      "description": "Saskatchewan"
+    },
+    {
+      "value": "YT",
+      "description": "Territorio Yukon"
+    },
+    {
+      "value": "AG",
+      "description": "Aargau"
+    },
+    {
+      "value": "AI",
+      "description": "Inner-Rhoden"
+    },
+    {
+      "value": "AR",
+      "description": "Ausser-Rhoden"
+    },
+    {
+      "value": "BE",
+      "description": "Berna"
+    },
+    {
+      "value": "BL",
+      "description": "Basilea - regione"
+    },
+    {
+      "value": "BS",
+      "description": "Basilea - città"
+    },
+    {
+      "value": "FR",
+      "description": "Friburgo"
+    },
+    {
+      "value": "GE",
+      "description": "Ginevra"
+    },
+    {
+      "value": "GL",
+      "description": "Glarus"
+    },
+    {
+      "value": "GR",
+      "description": "Cantone dei Grigioni"
+    },
+    {
+      "value": "JU",
+      "description": "Giura"
+    },
+    {
+      "value": "LU",
+      "description": "Lucerna"
+    },
+    {
+      "value": "NE",
+      "description": "Neuchatel"
+    },
+    {
+      "value": "NW",
+      "description": "Nidwalden"
+    },
+    {
+      "value": "OW",
+      "description": "Obwalden"
+    },
+    {
+      "value": "SG",
+      "description": "St. Gallen"
+    },
+    {
+      "value": "SH",
+      "description": "Sciaffusa"
+    },
+    {
+      "value": "SO",
+      "description": "Solothurn"
+    },
+    {
+      "value": "SZ",
+      "description": "Schwyz"
+    },
+    {
+      "value": "TG",
+      "description": "Thurgau"
+    },
+    {
+      "value": "TI",
+      "description": "Ticino"
+    },
+    {
+      "value": "UR",
+      "description": "Uri"
+    },
+    {
+      "value": "VD",
+      "description": "Vaud"
+    },
+    {
+      "value": "VS",
+      "description": "Valais"
+    },
+    {
+      "value": "ZG",
+      "description": "Zug"
+    },
+    {
+      "value": "ZH",
+      "description": "Zurigo"
+    },
+    {
+      "value": "010",
+      "description": "Pechino"
+    },
+    {
+      "value": "020",
+      "description": "Shanghai"
+    },
+    {
+      "value": "030",
+      "description": "Tianjin"
+    },
+    {
+      "value": "040",
+      "description": "Nei Mongol"
+    },
+    {
+      "value": "050",
+      "description": "Shanxi"
+    },
+    {
+      "value": "060",
+      "description": "Hebei"
+    },
+    {
+      "value": "070",
+      "description": "Liaoning"
+    },
+    {
+      "value": "080",
+      "description": "Jilin"
+    },
+    {
+      "value": "090",
+      "description": "Heilongjiang"
+    },
+    {
+      "value": "100",
+      "description": "Jiangsu"
+    },
+    {
+      "value": "110",
+      "description": "Anhui"
+    },
+    {
+      "value": "120",
+      "description": "Shandong"
+    },
+    {
+      "value": "130",
+      "description": "Zhejiang"
+    },
+    {
+      "value": "140",
+      "description": "Jiangxi"
+    },
+    {
+      "value": "150",
+      "description": "Fujian"
+    },
+    {
+      "value": "160",
+      "description": "Hunan"
+    },
+    {
+      "value": "170",
+      "description": "Hubei"
+    },
+    {
+      "value": "180",
+      "description": "Henan"
+    },
+    {
+      "value": "190",
+      "description": "Guangdong"
+    },
+    {
+      "value": "200",
+      "description": "Hainan"
+    },
+    {
+      "value": "210",
+      "description": "Guangxi"
+    },
+    {
+      "value": "220",
+      "description": "Guizhou"
+    },
+    {
+      "value": "230",
+      "description": "Sichuan"
+    },
+    {
+      "value": "240",
+      "description": "Yunnan"
+    },
+    {
+      "value": "250",
+      "description": "Shaanxi"
+    },
+    {
+      "value": "260",
+      "description": "Gansu"
+    },
+    {
+      "value": "270",
+      "description": "Ningxia"
+    },
+    {
+      "value": "280",
+      "description": "Qinghai"
+    },
+    {
+      "value": "290",
+      "description": "Xinjiang"
+    },
+    {
+      "value": "300",
+      "description": "Xizang"
+    },
+    {
+      "value": "320",
+      "description": "Chong Qing"
+    },
+    {
+      "value": "15",
+      "description": "BOYACA"
+    },
+    {
+      "value": "25",
+      "description": "CUNDINAMARCA"
+    },
+    {
+      "value": "27",
+      "description": "CHOCO"
+    },
+    {
+      "value": "41",
+      "description": "HUILA"
+    },
+    {
+      "value": "44",
+      "description": "LA GUAJIRA"
+    },
+    {
+      "value": "47",
+      "description": "MAGDALENA"
+    },
+    {
+      "value": "50",
+      "description": "META"
+    },
+    {
+      "value": "52",
+      "description": "NARIÑO"
+    },
+    {
+      "value": "54",
+      "description": "NORTE SANTANDER"
+    },
+    {
+      "value": "63",
+      "description": "QUINDIO"
+    },
+    {
+      "value": "66",
+      "description": "RISARALDA"
+    },
+    {
+      "value": "68",
+      "description": "SANTANDER"
+    },
+    {
+      "value": "70",
+      "description": "SUCRE"
+    },
+    {
+      "value": "73",
+      "description": "TOLIMA"
+    },
+    {
+      "value": "76",
+      "description": "VALLE"
+    },
+    {
+      "value": "81",
+      "description": "ARAUCA"
+    },
+    {
+      "value": "85",
+      "description": "CASANARE"
+    },
+    {
+      "value": "86",
+      "description": "PUTUMAYO"
+    },
+    {
+      "value": "88",
+      "description": "SAN ANDRES"
+    },
+    {
+      "value": "91",
+      "description": "AMAZONAS"
+    },
+    {
+      "value": "94",
+      "description": "GUAINIA"
+    },
+    {
+      "value": "95",
+      "description": "GUAVIARE"
+    },
+    {
+      "value": "97",
+      "description": "VAUPES"
+    },
+    {
+      "value": "99",
+      "description": "VICHADA"
+    },
+    {
+      "value": "31",
+      "description": "Jihocesky"
+    },
+    {
+      "value": "32",
+      "description": "Plzensky"
+    },
+    {
+      "value": "42",
+      "description": "Ustecky"
+    },
+    {
+      "value": "51",
+      "description": "Liberecky"
+    },
+    {
+      "value": "53",
+      "description": "Pardubicky"
+    },
+    {
+      "value": "61",
+      "description": "Vysocina"
+    },
+    {
+      "value": "62",
+      "description": "Jihomoravsky"
+    },
+    {
+      "value": "71",
+      "description": "Olomoucky"
+    },
+    {
+      "value": "72",
+      "description": "Zlinsky"
+    },
+    {
+      "value": "001",
+      "description": "Hovedstaden"
+    },
+    {
+      "value": "002",
+      "description": "Midtjylland"
+    },
+    {
+      "value": "003",
+      "description": "Nordjylland"
+    },
+    {
+      "value": "004",
+      "description": "Sjaelland"
+    },
+    {
+      "value": "005",
+      "description": "Syddanmark"
+    },
+    {
+      "value": "26",
+      "description": "La Rioja"
+    },
+    {
+      "value": "28",
+      "description": "Madrid"
+    },
+    {
+      "value": "29",
+      "description": "Malaga"
+    },
+    {
+      "value": "30",
+      "description": "Murcia"
+    },
+    {
+      "value": "33",
+      "description": "Asturias"
+    },
+    {
+      "value": "34",
+      "description": "Palencia"
+    },
+    {
+      "value": "35",
+      "description": "Las Palmas"
+    },
+    {
+      "value": "36",
+      "description": "Pontevedra"
+    },
+    {
+      "value": "37",
+      "description": "Salamanca"
+    },
+    {
+      "value": "38",
+      "description": "Sta. Cruz Tenerife"
+    },
+    {
+      "value": "39",
+      "description": "Cantabria"
+    },
+    {
+      "value": "40",
+      "description": "Segovia"
+    },
+    {
+      "value": "43",
+      "description": "Tarragona"
+    },
+    {
+      "value": "45",
+      "description": "Toledo"
+    },
+    {
+      "value": "46",
+      "description": "Valenzia"
+    },
+    {
+      "value": "48",
+      "description": "Vizcaya"
+    },
+    {
+      "value": "49",
+      "description": "Zamora"
+    },
+    {
+      "value": "EX",
+      "description": "Estero BR"
+    },
+    {
+      "value": "006",
+      "description": "Oulu"
+    },
+    {
+      "value": "2A",
+      "description": "Corse-du-Sud"
+    },
+    {
+      "value": "2B",
+      "description": "Corse-du-Nord"
+    },
+    {
+      "value": "55",
+      "description": "Meuse"
+    },
+    {
+      "value": "56",
+      "description": "Morbihan"
+    },
+    {
+      "value": "57",
+      "description": "Moselle"
+    },
+    {
+      "value": "58",
+      "description": "Nièvre"
+    },
+    {
+      "value": "59",
+      "description": "Nord"
+    },
+    {
+      "value": "60",
+      "description": "Oise"
+    },
+    {
+      "value": "64",
+      "description": "Pyrénées-Atlantiques"
+    },
+    {
+      "value": "65",
+      "description": "Pyrénées (Hautes)"
+    },
+    {
+      "value": "67",
+      "description": "Rhin (Bas)"
+    },
+    {
+      "value": "69",
+      "description": "Rhône"
+    },
+    {
+      "value": "74",
+      "description": "Savoie (Haute)"
+    },
+    {
+      "value": "75",
+      "description": "Paris"
+    },
+    {
+      "value": "77",
+      "description": "Seine-et-Marne"
+    },
+    {
+      "value": "78",
+      "description": "Yvelines"
+    },
+    {
+      "value": "79",
+      "description": "Sèvres (Deux)"
+    },
+    {
+      "value": "80",
+      "description": "Somme"
+    },
+    {
+      "value": "82",
+      "description": "Tarn-et-Garonne"
+    },
+    {
+      "value": "83",
+      "description": "Var."
+    },
+    {
+      "value": "84",
+      "description": "Vaucluse"
+    },
+    {
+      "value": "87",
+      "description": "Vienne (Haute)"
+    },
+    {
+      "value": "89",
+      "description": "Yonne"
+    },
+    {
+      "value": "90",
+      "description": "Territ.-de-Belfort"
+    },
+    {
+      "value": "92",
+      "description": "Hauts-de-Seine"
+    },
+    {
+      "value": "93",
+      "description": "Seine-Saint-Denis"
+    },
+    {
+      "value": "971",
+      "description": "Guadalupa"
+    },
+    {
+      "value": "972",
+      "description": "Martinica"
+    },
+    {
+      "value": "973",
+      "description": "Guiana"
+    },
+    {
+      "value": "974",
+      "description": "Réunion"
+    },
+    {
+      "value": "975",
+      "description": "Saint-Pierre-et-Miq."
+    },
+    {
+      "value": "976",
+      "description": "Wallis-et-Futuna"
+    },
+    {
+      "value": "AN",
+      "description": "Angus/Forfanshire"
+    },
+    {
+      "value": "AT",
+      "description": "Antrim"
+    },
+    {
+      "value": "AY",
+      "description": "Ayrshire"
+    },
+    {
+      "value": "BF",
+      "description": "Bracknell Forest"
+    },
+    {
+      "value": "BK",
+      "description": "Berkshire"
+    },
+    {
+      "value": "BR",
+      "description": "Brecknockshire"
+    },
+    {
+      "value": "BT",
+      "description": "Buteshire"
+    },
+    {
+      "value": "BU",
+      "description": "Buckinghamshire"
+    },
+    {
+      "value": "BW",
+      "description": "Berwickshire"
+    },
+    {
+      "value": "CA",
+      "description": "Cambridgeshire"
+    },
+    {
+      "value": "CB",
+      "description": "Carmarthenshire"
+    },
+    {
+      "value": "CD",
+      "description": "Cardiganshire"
+    },
+    {
+      "value": "CF",
+      "description": "Caernarfonshire"
+    },
+    {
+      "value": "CH",
+      "description": "Cheshire"
+    },
+    {
+      "value": "CM",
+      "description": "Cromartyshire"
+    },
+    {
+      "value": "CN",
+      "description": "Clackmannanshire"
+    },
+    {
+      "value": "CO",
+      "description": "Cornwall"
+    },
+    {
+      "value": "CT",
+      "description": "Caithness"
+    },
+    {
+      "value": "CU",
+      "description": "Cumberland"
+    },
+    {
+      "value": "DB",
+      "description": "Derbyshire"
+    },
+    {
+      "value": "DD",
+      "description": "Denbighshire"
+    },
+    {
+      "value": "DN",
+      "description": "Down"
+    },
+    {
+      "value": "DO",
+      "description": "Dorset"
+    },
+    {
+      "value": "DT",
+      "description": "Dunbartonshire"
+    },
+    {
+      "value": "DU",
+      "description": "Durham"
+    },
+    {
+      "value": "DV",
+      "description": "Devon"
+    },
+    {
+      "value": "EL",
+      "description": "East Lothian"
+    },
+    {
+      "value": "FI",
+      "description": "Fife"
+    },
+    {
+      "value": "FL",
+      "description": "Flintshire"
+    },
+    {
+      "value": "FM",
+      "description": "Fermanagh"
+    },
+    {
+      "value": "HA",
+      "description": "Hampshire"
+    },
+    {
+      "value": "HT",
+      "description": "Hertfordshire"
+    },
+    {
+      "value": "HU",
+      "description": "Huntingdonshire"
+    },
+    {
+      "value": "HW",
+      "description": "Herefd. and Worcest."
+    },
+    {
+      "value": "IN",
+      "description": "Invernesshire"
+    },
+    {
+      "value": "IW",
+      "description": "Isle of Wight"
+    },
+    {
+      "value": "KE",
+      "description": "Kent"
+    },
+    {
+      "value": "KI",
+      "description": "Kincardineshire"
+    },
+    {
+      "value": "KK",
+      "description": "Kirkcudbrightshire"
+    },
+    {
+      "value": "KN",
+      "description": "Kinross-shire"
+    },
+    {
+      "value": "LA",
+      "description": "Lancashire"
+    },
+    {
+      "value": "LD",
+      "description": "Londonderry"
+    },
+    {
+      "value": "LE",
+      "description": "Leicestershire"
+    },
+    {
+      "value": "LI",
+      "description": "Lincolnshire"
+    },
+    {
+      "value": "LN",
+      "description": "Lanarkshire"
+    },
+    {
+      "value": "LO",
+      "description": "London"
+    },
+    {
+      "value": "MD",
+      "description": "Midlothian"
+    },
+    {
+      "value": "ME",
+      "description": "Merioneth"
+    },
+    {
+      "value": "MM",
+      "description": "Monmouthshire"
+    },
+    {
+      "value": "MR",
+      "description": "Morayshire"
+    },
+    {
+      "value": "MX",
+      "description": "Middlesex"
+    },
+    {
+      "value": "NH",
+      "description": "Northamptonshire"
+    },
+    {
+      "value": "NK",
+      "description": "Norfolk"
+    },
+    {
+      "value": "NR",
+      "description": "Nairnshire"
+    },
+    {
+      "value": "OR",
+      "description": "Orkney"
+    },
+    {
+      "value": "OX",
+      "description": "Oxfordshire"
+    },
+    {
+      "value": "PM",
+      "description": "Pembrokeshire"
+    },
+    {
+      "value": "RA",
+      "description": "Radnorshire"
+    },
+    {
+      "value": "RE",
+      "description": "Renfrewshire"
+    },
+    {
+      "value": "RU",
+      "description": "Rutland"
+    },
+    {
+      "value": "RX",
+      "description": "Roxburghshire"
+    },
+    {
+      "value": "SF",
+      "description": "Selkirkshire"
+    },
+    {
+      "value": "SL",
+      "description": "Shetland"
+    },
+    {
+      "value": "SU",
+      "description": "Sutherland"
+    },
+    {
+      "value": "SV",
+      "description": "Stirlingshire"
+    },
+    {
+      "value": "SW",
+      "description": "West Sussex"
+    },
+    {
+      "value": "SY",
+      "description": "Surrey"
+    },
+    {
+      "value": "TY",
+      "description": "Tyrone"
+    },
+    {
+      "value": "WC",
+      "description": "Worcestershire"
+    },
+    {
+      "value": "WE",
+      "description": "Westmorland"
+    },
+    {
+      "value": "WG",
+      "description": "West Glamorgan"
+    },
+    {
+      "value": "WI",
+      "description": "Wiltshire"
+    },
+    {
+      "value": "WK",
+      "description": "West Lothian"
+    },
+    {
+      "value": "WT",
+      "description": "Wigtownshire"
+    },
+    {
+      "value": "YN",
+      "description": "North Yorkshire"
+    },
+    {
+      "value": "YS",
+      "description": "South Yorkshire"
+    },
+    {
+      "value": "YW",
+      "description": "West Yorkshire"
+    },
+    {
+      "value": "HK",
+      "description": "Hong Kong Island"
+    },
+    {
+      "value": "KLN",
+      "description": "Kowloon"
+    },
+    {
+      "value": "A00",
+      "description": "Zagrebacka"
+    },
+    {
+      "value": "B00",
+      "description": "Krapinsko-zagorska"
+    },
+    {
+      "value": "C00",
+      "description": "Sisacko-moslavacka "
+    },
+    {
+      "value": "D00",
+      "description": "Karlovacka "
+    },
+    {
+      "value": "E00",
+      "description": "Varazdinska "
+    },
+    {
+      "value": "F00",
+      "description": "Koprivnicko-krizevac"
+    },
+    {
+      "value": "G00",
+      "description": "Bjelovarsko-bilogors"
+    },
+    {
+      "value": "H00",
+      "description": "Rijecko-goranska "
+    },
+    {
+      "value": "I00",
+      "description": "Licko-senjska "
+    },
+    {
+      "value": "J00",
+      "description": "Viroviticko-podravac"
+    },
+    {
+      "value": "K00",
+      "description": "Pozesko-slavonska "
+    },
+    {
+      "value": "L00",
+      "description": "Slavonskobrodska"
+    },
+    {
+      "value": "M00",
+      "description": "Zadarska "
+    },
+    {
+      "value": "N00",
+      "description": "Osjecko-baranjska "
+    },
+    {
+      "value": "O00",
+      "description": "Sibensko-kninska  "
+    },
+    {
+      "value": "P00",
+      "description": "Vukovarsko-srijemska"
+    },
+    {
+      "value": "R00",
+      "description": "Splitsko-dalmatinska"
+    },
+    {
+      "value": "S00",
+      "description": "Istarska"
+    },
+    {
+      "value": "T00",
+      "description": "Dubrovacko-neretvans"
+    },
+    {
+      "value": "U00",
+      "description": "Medjimurska"
+    },
+    {
+      "value": "V00",
+      "description": "Città di Zagabria"
+    },
+    {
+      "value": "CK",
+      "description": "Cork"
+    },
+    {
+      "value": "CL",
+      "description": "Clare"
+    },
+    {
+      "value": "CV",
+      "description": "Kavan"
+    },
+    {
+      "value": "CW",
+      "description": "Carlow"
+    },
+    {
+      "value": "DG",
+      "description": "Donegal"
+    },
+    {
+      "value": "GW",
+      "description": "Galway"
+    },
+    {
+      "value": "KD",
+      "description": "Kildare"
+    },
+    {
+      "value": "KY",
+      "description": "Kerry"
+    },
+    {
+      "value": "LF",
+      "description": "Longford"
+    },
+    {
+      "value": "LM",
+      "description": "Leitrim"
+    },
+    {
+      "value": "LS",
+      "description": "Laois"
+    },
+    {
+      "value": "LT",
+      "description": "Louth"
+    },
+    {
+      "value": "MH",
+      "description": "Monaghan"
+    },
+    {
+      "value": "MY",
+      "description": "Mayo"
+    },
+    {
+      "value": "OF",
+      "description": "Offaly"
+    },
+    {
+      "value": "RC",
+      "description": "Roscommon"
+    },
+    {
+      "value": "TP",
+      "description": "Tipperary"
+    },
+    {
+      "value": "WF",
+      "description": "Waterford"
+    },
+    {
+      "value": "WM",
+      "description": "Westmeath"
+    },
+    {
+      "value": "WX",
+      "description": "Wexford"
+    },
+    {
+      "value": "A1",
+      "description": ""
+    },
+    {
+      "value": "A2",
+      "description": ""
+    },
+    {
+      "value": "A3",
+      "description": ""
+    },
+    {
+      "value": "A4",
+      "description": ""
+    },
+    {
+      "value": "AO",
+      "description": "Aosta"
+    },
+    {
+      "value": "AQ",
+      "description": "L\u0027Aquila"
+    },
+    {
+      "value": "AV",
+      "description": "Avellino"
+    },
+    {
+      "value": "BG",
+      "description": "Bergamo"
+    },
+    {
+      "value": "BI",
+      "description": "Biella"
+    },
+    {
+      "value": "BN",
+      "description": "Benevento"
+    },
+    {
+      "value": "BO",
+      "description": "Bologna"
+    },
+    {
+      "value": "BZ",
+      "description": "Bolzano"
+    },
+    {
+      "value": "CR",
+      "description": "Cremona"
+    },
+    {
+      "value": "CS",
+      "description": "Cosenza"
+    },
+    {
+      "value": "CZ",
+      "description": "Catanzaro"
+    },
+    {
+      "value": "EN",
+      "description": "Enna"
+    },
+    {
+      "value": "FC",
+      "description": "Forli/Cesena"
+    },
+    {
+      "value": "FE",
+      "description": "Ferrara"
+    },
+    {
+      "value": "FG",
+      "description": "Foggia"
+    },
+    {
+      "value": "IM",
+      "description": "Imperia"
+    },
+    {
+      "value": "IS",
+      "description": "Isernia"
+    },
+    {
+      "value": "KR",
+      "description": "Crotone"
+    },
+    {
+      "value": "LC",
+      "description": "Lecco"
+    },
+    {
+      "value": "MC",
+      "description": "Macerata"
+    },
+    {
+      "value": "MI",
+      "description": "Milano"
+    },
+    {
+      "value": "MN",
+      "description": "Mantova"
+    },
+    {
+      "value": "MO",
+      "description": "Modena"
+    },
+    {
+      "value": "NA",
+      "description": "Napoli"
+    },
+    {
+      "value": "NO",
+      "description": "Novara"
+    },
+    {
+      "value": "OG",
+      "description": "Ogliano"
+    },
+    {
+      "value": "OT",
+      "description": "Olbia Tempio"
+    },
+    {
+      "value": "PC",
+      "description": "Piacenza"
+    },
+    {
+      "value": "PD",
+      "description": "Padova"
+    },
+    {
+      "value": "PG",
+      "description": "Perugia"
+    },
+    {
+      "value": "PN",
+      "description": "Pordenone"
+    },
+    {
+      "value": "PO",
+      "description": "Prato"
+    },
+    {
+      "value": "PT",
+      "description": "Pistoia"
+    },
+    {
+      "value": "PU",
+      "description": "Pesaro-Urbino"
+    },
+    {
+      "value": "PV",
+      "description": "Pavia"
+    },
+    {
+      "value": "PZ",
+      "description": "Potenza"
+    },
+    {
+      "value": "RG",
+      "description": "Ragusa"
+    },
+    {
+      "value": "RI",
+      "description": "Rieti"
+    },
+    {
+      "value": "RM",
+      "description": "Roma"
+    },
+    {
+      "value": "SI",
+      "description": "Siena"
+    },
+    {
+      "value": "SR",
+      "description": "Siracusa"
+    },
+    {
+      "value": "SS",
+      "description": "Sassari"
+    },
+    {
+      "value": "TA",
+      "description": "Taranto"
+    },
+    {
+      "value": "TE",
+      "description": "Teramo"
+    },
+    {
+      "value": "TN",
+      "description": "Trento"
+    },
+    {
+      "value": "TR",
+      "description": "Terni"
+    },
+    {
+      "value": "TS",
+      "description": "Trieste"
+    },
+    {
+      "value": "TV",
+      "description": "Treviso"
+    },
+    {
+      "value": "UD",
+      "description": "Udine"
+    },
+    {
+      "value": "VA",
+      "description": "Varese"
+    },
+    {
+      "value": "VB",
+      "description": "Verbania"
+    },
+    {
+      "value": "VC",
+      "description": "Vercelli"
+    },
+    {
+      "value": "VE",
+      "description": "Venezia"
+    },
+    {
+      "value": "VI",
+      "description": "Vicenza"
+    },
+    {
+      "value": "VR",
+      "description": "Verona"
+    },
+    {
+      "value": "VT",
+      "description": "Viterbo"
+    },
+    {
+      "value": "VV",
+      "description": "Vibo Valentia"
+    },
+    {
+      "value": "KH",
+      "description": "Cambogia"
+    },
+    {
+      "value": "AGS",
+      "description": "Aguascalientes"
+    },
+    {
+      "value": "BCS",
+      "description": "Baja California S"
+    },
+    {
+      "value": "CHI",
+      "description": "Chihuahua"
+    },
+    {
+      "value": "CHS",
+      "description": "Chiapas"
+    },
+    {
+      "value": "CMP",
+      "description": "Campeche"
+    },
+    {
+      "value": "COA",
+      "description": "Coahuila"
+    },
+    {
+      "value": "COL",
+      "description": "Colima"
+    },
+    {
+      "value": "DGO",
+      "description": "Durango"
+    },
+    {
+      "value": "GRO",
+      "description": "Guerrero"
+    },
+    {
+      "value": "GTO",
+      "description": "Guanajuato"
+    },
+    {
+      "value": "HGO",
+      "description": "Hidalgo"
+    },
+    {
+      "value": "JAL",
+      "description": "Jalisco"
+    },
+    {
+      "value": "MCH",
+      "description": "Michoacán"
+    },
+    {
+      "value": "MEX",
+      "description": "Estado de México"
+    },
+    {
+      "value": "MOR",
+      "description": "Morelos"
+    },
+    {
+      "value": "NAY",
+      "description": "Nayarit"
+    },
+    {
+      "value": "OAX",
+      "description": "Oaxaca"
+    },
+    {
+      "value": "PUE",
+      "description": "Puebla"
+    },
+    {
+      "value": "QR",
+      "description": "Quintana Roo"
+    },
+    {
+      "value": "QRO",
+      "description": "Querétaro"
+    },
+    {
+      "value": "SIN",
+      "description": "Sinaloa"
+    },
+    {
+      "value": "SLP",
+      "description": "San Luis Potosí"
+    },
+    {
+      "value": "SON",
+      "description": "Sonora"
+    },
+    {
+      "value": "TAB",
+      "description": "Tabasco"
+    },
+    {
+      "value": "TLX",
+      "description": "Tlaxcala"
+    },
+    {
+      "value": "TMS",
+      "description": "Tamaulipas"
+    },
+    {
+      "value": "VER",
+      "description": "Veracruz"
+    },
+    {
+      "value": "YUC",
+      "description": "Yucatán"
+    },
+    {
+      "value": "ZAC",
+      "description": "Zacatecas"
+    },
+    {
+      "value": "JOH",
+      "description": "Johor"
+    },
+    {
+      "value": "KED",
+      "description": "Kedah"
+    },
+    {
+      "value": "KEL",
+      "description": "Kelantan"
+    },
+    {
+      "value": "KUL",
+      "description": "Kuala Lumpur"
+    },
+    {
+      "value": "LAB",
+      "description": "Labuan"
+    },
+    {
+      "value": "MEL",
+      "description": "Melaka"
+    },
+    {
+      "value": "PAH",
+      "description": "Pahang"
+    },
+    {
+      "value": "PEL",
+      "description": "Perlis"
+    },
+    {
+      "value": "PER",
+      "description": "Perak"
+    },
+    {
+      "value": "PIN",
+      "description": "Pulau Pinang"
+    },
+    {
+      "value": "PSK",
+      "description": "Wil. Persekutuan"
+    },
+    {
+      "value": "SAB",
+      "description": "Sabah"
+    },
+    {
+      "value": "SAR",
+      "description": "Sarawak"
+    },
+    {
+      "value": "SEL",
+      "description": "Selangor"
+    },
+    {
+      "value": "SER",
+      "description": "Negeri Sembilan"
+    },
+    {
+      "value": "TRE",
+      "description": "Trengganu"
+    },
+    {
+      "value": "AKL",
+      "description": "Auckland"
+    },
+    {
+      "value": "BOP",
+      "description": "Bay of Plenty"
+    },
+    {
+      "value": "CAN",
+      "description": "Canterbury"
+    },
+    {
+      "value": "HAB",
+      "description": "Hawke´s Bay"
+    },
+    {
+      "value": "MAN",
+      "description": "Manawatu-Wanganui"
+    },
+    {
+      "value": "NTL",
+      "description": "Northland"
+    },
+    {
+      "value": "OTA",
+      "description": "Otago"
+    },
+    {
+      "value": "STL",
+      "description": "Southland"
+    },
+    {
+      "value": "TAR",
+      "description": "Taranaki"
+    },
+    {
+      "value": "WAI",
+      "description": "Waikato"
+    },
+    {
+      "value": "WEC",
+      "description": "West Coast"
+    },
+    {
+      "value": "WLG",
+      "description": "Wellington"
+    },
+    {
+      "value": "PK",
+      "description": "Pakistan"
+    },
+    {
+      "value": "DSL",
+      "description": "Dolnoslaskie"
+    },
+    {
+      "value": "K-P",
+      "description": "Kujawsko-Pomorskie"
+    },
+    {
+      "value": "LBL",
+      "description": "Lubelskie"
+    },
+    {
+      "value": "LBS",
+      "description": "Lubuskie"
+    },
+    {
+      "value": "LDZ",
+      "description": "Lódzkie"
+    },
+    {
+      "value": "MAL",
+      "description": "Malopolskie"
+    },
+    {
+      "value": "MAZ",
+      "description": "Mazowieckie"
+    },
+    {
+      "value": "OPO",
+      "description": "Opolskie"
+    },
+    {
+      "value": "PDK",
+      "description": "Podkarpackie"
+    },
+    {
+      "value": "PDL",
+      "description": "Podlaskie"
+    },
+    {
+      "value": "POM",
+      "description": "Pomorskie"
+    },
+    {
+      "value": "SLS",
+      "description": "Slaskie"
+    },
+    {
+      "value": "SWK",
+      "description": "Swietokrzyskie"
+    },
+    {
+      "value": "W-M",
+      "description": "Warminsko-mazurskie"
+    },
+    {
+      "value": "WLK",
+      "description": "Wielkopolskie"
+    },
+    {
+      "value": "Z-P",
+      "description": "Zachodnio-Pomorskie"
+    },
+    {
+      "value": "007",
+      "description": "Jönköpings Län"
+    },
+    {
+      "value": "008",
+      "description": "Kalmar Län"
+    },
+    {
+      "value": "009",
+      "description": "Kronobergs Län"
+    },
+    {
+      "value": "011",
+      "description": "Skåne Län"
+    },
+    {
+      "value": "012",
+      "description": "Stockholms Län"
+    },
+    {
+      "value": "013",
+      "description": "Södermanlands Län"
+    },
+    {
+      "value": "014",
+      "description": "Uppsala Län"
+    },
+    {
+      "value": "015",
+      "description": "Värmlands Län"
+    },
+    {
+      "value": "016",
+      "description": "Västerbottens Län"
+    },
+    {
+      "value": "017",
+      "description": "Västernorrlands Län"
+    },
+    {
+      "value": "018",
+      "description": "Västmanlands Län"
+    },
+    {
+      "value": "019",
+      "description": "Västra Götalands Län"
+    },
+    {
+      "value": "021",
+      "description": "Östergötlands Län"
+    },
+    {
+      "value": "FJN",
+      "description": "Fu-chien"
+    },
+    {
+      "value": "KSH",
+      "description": "Kao-hsiung"
+    },
+    {
+      "value": "TPE",
+      "description": "T´ai-pei"
+    },
+    {
+      "value": "TWN",
+      "description": "Taiwan"
+    },
+    {
+      "value": "CHG",
+      "description": "Chernigivs\u0027ka"
+    },
+    {
+      "value": "CHR",
+      "description": "Cherkas\u0027ka"
+    },
+    {
+      "value": "CHV",
+      "description": "Chernovits\u0027ka"
+    },
+    {
+      "value": "DNP",
+      "description": "Dnipropetrovs\u0027ka"
+    },
+    {
+      "value": "DON",
+      "description": "Donets\u0027ka"
+    },
+    {
+      "value": "HAR",
+      "description": "Harkivs\u0027ka"
+    },
+    {
+      "value": "HML",
+      "description": "Hmel\u0027nits\u0027ka"
+    },
+    {
+      "value": "HRS",
+      "description": "Hersons\u0027ka"
+    },
+    {
+      "value": "IVF",
+      "description": "Ivano-Frankivs\u0027ka"
+    },
+    {
+      "value": "KIE",
+      "description": "Kievs\u0027ka"
+    },
+    {
+      "value": "KIR",
+      "description": "Kirovograds\u0027ka"
+    },
+    {
+      "value": "KRM",
+      "description": "Respublika Krim"
+    },
+    {
+      "value": "L\u0027V",
+      "description": "L\u0027vivsbka"
+    },
+    {
+      "value": "LUG",
+      "description": "Lugans\u0027ka"
+    },
+    {
+      "value": "MIK",
+      "description": "Mikolaivs\u0027ka"
+    },
+    {
+      "value": "M_K",
+      "description": "m.Kiev"
+    },
+    {
+      "value": "M_S",
+      "description": "m.Sevastopil\u0027"
+    },
+    {
+      "value": "ODS",
+      "description": "Odes\u0027ka"
+    },
+    {
+      "value": "POL",
+      "description": "Poltavs\u0027ka"
+    },
+    {
+      "value": "RIV",
+      "description": "Rivnens\u0027ka"
+    },
+    {
+      "value": "SUM",
+      "description": "Sums\u0027ka"
+    },
+    {
+      "value": "TER",
+      "description": "Ternopil\u0027s\u0027ka"
+    },
+    {
+      "value": "VIN",
+      "description": "Vinnits\u0027ka"
+    },
+    {
+      "value": "VOL",
+      "description": "Volins\u0027ka"
+    },
+    {
+      "value": "ZAK",
+      "description": "Zakarpats\u0027ka"
+    },
+    {
+      "value": "ZAP",
+      "description": "Zaporiz\u0027ka"
+    },
+    {
+      "value": "ZHI",
+      "description": "Zhitomirs\u0027ka"
+    },
+    {
+      "value": "AK",
+      "description": "Alaska"
+    },
+    {
+      "value": "AS",
+      "description": "Samoa (americana)"
+    },
+    {
+      "value": "AZ",
+      "description": "Arizona"
+    },
+    {
+      "value": "DC",
+      "description": "District of Columbia"
+    },
+    {
+      "value": "DE",
+      "description": "Delaware"
+    },
+    {
+      "value": "GA",
+      "description": "Georgia"
+    },
+    {
+      "value": "GU",
+      "description": "Guam"
+    },
+    {
+      "value": "HI",
+      "description": "Hawaii"
+    },
+    {
+      "value": "IA",
+      "description": "Iowa"
+    },
+    {
+      "value": "ID",
+      "description": "Idaho"
+    },
+    {
+      "value": "IL",
+      "description": "Illinois"
+    },
+    {
+      "value": "KS",
+      "description": "Kansas"
+    },
+    {
+      "value": "MP",
+      "description": "Northern Mariana Isl"
+    },
+    {
+      "value": "NC",
+      "description": "North Carolina"
+    },
+    {
+      "value": "ND",
+      "description": "North Dakota"
+    },
+    {
+      "value": "NJ",
+      "description": "New Jersey"
+    },
+    {
+      "value": "NM",
+      "description": "New Mexico"
+    },
+    {
+      "value": "NV",
+      "description": "Nevada"
+    },
+    {
+      "value": "NY",
+      "description": "New York"
+    },
+    {
+      "value": "OH",
+      "description": "Ohio"
+    },
+    {
+      "value": "OK",
+      "description": "Oklahoma"
+    },
+    {
+      "value": "SD",
+      "description": "South Dakota"
+    },
+    {
+      "value": "TX",
+      "description": "Texas"
+    },
+    {
+      "value": "UT",
+      "description": "Utah"
+    },
+    {
+      "value": "WV",
+      "description": "West Virginia"
+    },
+    {
+      "value": "WY",
+      "description": "Wyoming"
+    },
+    {
+      "value": "AMA",
+      "description": "Amazonas"
+    },
+    {
+      "value": "ANZ",
+      "description": "Anzoategui"
+    },
+    {
+      "value": "APU",
+      "description": "Apure"
+    },
+    {
+      "value": "ARA",
+      "description": "Aragua"
+    },
+    {
+      "value": "BAR",
+      "description": "Barinas"
+    },
+    {
+      "value": "BOL",
+      "description": "Bolivar"
+    },
+    {
+      "value": "CAR",
+      "description": "Carabobo"
+    },
+    {
+      "value": "COJ",
+      "description": "Cojedes"
+    },
+    {
+      "value": "DA",
+      "description": "Delta Amacuro"
+    },
+    {
+      "value": "FAL",
+      "description": "Falcon"
+    },
+    {
+      "value": "GUA",
+      "description": "Guarico"
+    },
+    {
+      "value": "LAR",
+      "description": "Lara"
+    },
+    {
+      "value": "MER",
+      "description": "Merida"
+    },
+    {
+      "value": "MIR",
+      "description": "Miranda"
+    },
+    {
+      "value": "MON",
+      "description": "Monagas"
+    },
+    {
+      "value": "POR",
+      "description": "Portuguesa"
+    },
+    {
+      "value": "SUC",
+      "description": "Sucre"
+    },
+    {
+      "value": "TAC",
+      "description": "Tachira"
+    },
+    {
+      "value": "TRU",
+      "description": "Trujillo"
+    },
+    {
+      "value": "VAR",
+      "description": "Vargas"
+    },
+    {
+      "value": "YAR",
+      "description": "Yaracuy"
+    },
+    {
+      "value": "ZUL",
+      "description": "Zulia"
+    },
+    {
+      "value": "VN",
+      "description": "Vietnam"
+    },
+    {
+      "value": "EC",
+      "description": "Eastern Cape"
+    },
+    {
+      "value": "FS",
+      "description": "Freestate"
+    },
+    {
+      "value": "GP",
+      "description": "Gauteng"
+    },
+    {
+      "value": "KZN",
+      "description": "Kwazulu/Natal"
+    },
+    {
+      "value": "NP",
+      "description": "Northern Province"
+    }
+  ],
+  "COUNTRY": [
+    {
+      "value": "AD",
+      "description": "Andorrana"
+    },
+    {
+      "value": "AE",
+      "description": "d. Emir.Arabi U"
+    },
+    {
+      "value": "AF",
+      "description": "Afgana"
+    },
+    {
+      "value": "AG",
+      "description": "Di Ant.e Barb."
+    },
+    {
+      "value": "AI",
+      "description": "Anguilla"
+    },
+    {
+      "value": "AL",
+      "description": "Albanese"
+    },
+    {
+      "value": "AM",
+      "description": "Armena"
+    },
+    {
+      "value": "AN",
+      "description": "Olandese"
+    },
+    {
+      "value": "AO",
+      "description": "Angolana"
+    },
+    {
+      "value": "AQ",
+      "description": "Antartide"
+    },
+    {
+      "value": "AR",
+      "description": "Argentina"
+    },
+    {
+      "value": "AS",
+      "description": "Samoana"
+    },
+    {
+      "value": "AT",
+      "description": "Austriaco"
+    },
+    {
+      "value": "AU",
+      "description": "australiano"
+    },
+    {
+      "value": "AW",
+      "description": "Arubana"
+    },
+    {
+      "value": "AZ",
+      "description": "DellAzerbaigian"
+    },
+    {
+      "value": "BA",
+      "description": "Bosniaco"
+    },
+    {
+      "value": "BB",
+      "description": "Barbadiana"
+    },
+    {
+      "value": "BD",
+      "description": "Bangladese"
+    },
+    {
+      "value": "BE",
+      "description": "Belga"
+    },
+    {
+      "value": "BF",
+      "description": "Burkinabé"
+    },
+    {
+      "value": "BG",
+      "description": "Bulgara"
+    },
+    {
+      "value": "BH",
+      "description": "Bahereinita"
+    },
+    {
+      "value": "BI",
+      "description": "Burundese"
+    },
+    {
+      "value": "BJ",
+      "description": "Beniniano"
+    },
+    {
+      "value": "BL",
+      "description": ""
+    },
+    {
+      "value": "BM",
+      "description": "Delle Bermuda"
+    },
+    {
+      "value": "BN",
+      "description": "Del Brunei"
+    },
+    {
+      "value": "BO",
+      "description": "Boliviana"
+    },
+    {
+      "value": "BR",
+      "description": "Brasiliana"
+    },
+    {
+      "value": "BS",
+      "description": "Bahamiana"
+    },
+    {
+      "value": "BT",
+      "description": "Bhutanese"
+    },
+    {
+      "value": "BV",
+      "description": "Isole Bouvet"
+    },
+    {
+      "value": "BW",
+      "description": "Botswana"
+    },
+    {
+      "value": "BY",
+      "description": "bielorusso"
+    },
+    {
+      "value": "BZ",
+      "description": "Belizeana"
+    },
+    {
+      "value": "CA",
+      "description": "Canadese"
+    },
+    {
+      "value": "CC",
+      "description": "Australiana"
+    },
+    {
+      "value": "CD",
+      "description": "Congolese"
+    },
+    {
+      "value": "CF",
+      "description": "centrafricano"
+    },
+    {
+      "value": "CG",
+      "description": "Congolese"
+    },
+    {
+      "value": "CH",
+      "description": "Svizzera"
+    },
+    {
+      "value": "CI",
+      "description": "Ivoriana"
+    },
+    {
+      "value": "CK",
+      "description": "Isole Cook"
+    },
+    {
+      "value": "CL",
+      "description": "Cilena"
+    },
+    {
+      "value": "CM",
+      "description": "Camerunese"
+    },
+    {
+      "value": "CN",
+      "description": "Cinese"
+    },
+    {
+      "value": "CO",
+      "description": "Colombiana"
+    },
+    {
+      "value": "CR",
+      "description": "Costaricana"
+    },
+    {
+      "value": "CS",
+      "description": "Serbo-monteneg."
+    },
+    {
+      "value": "CU",
+      "description": "Cubana"
+    },
+    {
+      "value": "CV",
+      "description": "Capoverdiana"
+    },
+    {
+      "value": "CX",
+      "description": "Australiana"
+    },
+    {
+      "value": "CY",
+      "description": "Cipriota"
+    },
+    {
+      "value": "CZ",
+      "description": "Ceca"
+    },
+    {
+      "value": "DE",
+      "description": "Tedesco"
+    },
+    {
+      "value": "DJ",
+      "description": "Gibutiana"
+    },
+    {
+      "value": "DK",
+      "description": "Danese"
+    },
+    {
+      "value": "DM",
+      "description": "di Dominica"
+    },
+    {
+      "value": "DO",
+      "description": "Dominicana"
+    },
+    {
+      "value": "DZ",
+      "description": "Algerina"
+    },
+    {
+      "value": "EC",
+      "description": "Ecuadoriana"
+    },
+    {
+      "value": "EE",
+      "description": "Estone"
+    },
+    {
+      "value": "EG",
+      "description": "Egiziana"
+    },
+    {
+      "value": "EH",
+      "description": "Francese"
+    },
+    {
+      "value": "ER",
+      "description": "Eritrea"
+    },
+    {
+      "value": "ES",
+      "description": "Spagnola"
+    },
+    {
+      "value": "ET",
+      "description": "Etiope"
+    },
+    {
+      "value": "EU",
+      "description": ""
+    },
+    {
+      "value": "FI",
+      "description": "finlandese"
+    },
+    {
+      "value": "FJ",
+      "description": "Figiana"
+    },
+    {
+      "value": "FK",
+      "description": "Britannica"
+    },
+    {
+      "value": "FM",
+      "description": "Micronesiana"
+    },
+    {
+      "value": "FO",
+      "description": "Danese"
+    },
+    {
+      "value": "FR",
+      "description": "Francese"
+    },
+    {
+      "value": "GA",
+      "description": "Gabonese"
+    },
+    {
+      "value": "GB",
+      "description": "Britannica"
+    },
+    {
+      "value": "GD",
+      "description": "Grenadina"
+    },
+    {
+      "value": "GE",
+      "description": "Georgiana"
+    },
+    {
+      "value": "GF",
+      "description": "Francese"
+    },
+    {
+      "value": "GH",
+      "description": "Ghanese"
+    },
+    {
+      "value": "GI",
+      "description": "Gibilterra"
+    },
+    {
+      "value": "GL",
+      "description": "Danese"
+    },
+    {
+      "value": "GM",
+      "description": "Gambiana"
+    },
+    {
+      "value": "GN",
+      "description": "Guineana"
+    },
+    {
+      "value": "GP",
+      "description": "Francese"
+    },
+    {
+      "value": "GQ",
+      "description": "della Guinea Eq"
+    },
+    {
+      "value": "GR",
+      "description": "Greca"
+    },
+    {
+      "value": "GS",
+      "description": "Georgia del Sud"
+    },
+    {
+      "value": "GT",
+      "description": "Guatemalteca"
+    },
+    {
+      "value": "GU",
+      "description": "Americana"
+    },
+    {
+      "value": "GW",
+      "description": "Della Gui.Biss."
+    },
+    {
+      "value": "GY",
+      "description": "Guianese"
+    },
+    {
+      "value": "HK",
+      "description": "Hong Kong"
+    },
+    {
+      "value": "HM",
+      "description": "Is.Heard/McDon."
+    },
+    {
+      "value": "HN",
+      "description": "Honduregna"
+    },
+    {
+      "value": "HR",
+      "description": "Croata"
+    },
+    {
+      "value": "HT",
+      "description": "Haitiana"
+    },
+    {
+      "value": "HU",
+      "description": "Ungherese"
+    },
+    {
+      "value": "ID",
+      "description": "Indonesiana"
+    },
+    {
+      "value": "IE",
+      "description": "Irlandese"
+    },
+    {
+      "value": "IL",
+      "description": "Israeliana"
+    },
+    {
+      "value": "IN",
+      "description": "Indiana"
+    },
+    {
+      "value": "IO",
+      "description": "Terr.br.Oc.Ind."
+    },
+    {
+      "value": "IQ",
+      "description": "Irachena"
+    },
+    {
+      "value": "IR",
+      "description": "Iraniana"
+    },
+    {
+      "value": "IS",
+      "description": "Islandese"
+    },
+    {
+      "value": "IT",
+      "description": "Italiana"
+    },
+    {
+      "value": "JE",
+      "description": "Britannica"
+    },
+    {
+      "value": "JM",
+      "description": "Giamaicana"
+    },
+    {
+      "value": "JO",
+      "description": "Giordana"
+    },
+    {
+      "value": "JP",
+      "description": "Giapponese"
+    },
+    {
+      "value": "KE",
+      "description": "Keniota"
+    },
+    {
+      "value": "KG",
+      "description": "Kirghisa"
+    },
+    {
+      "value": "KH",
+      "description": "Cambogiana"
+    },
+    {
+      "value": "KI",
+      "description": "Di Kiribati"
+    },
+    {
+      "value": "KM",
+      "description": "Comoriana"
+    },
+    {
+      "value": "KN",
+      "description": "Di St. Christ.\u0026"
+    },
+    {
+      "value": "KP",
+      "description": "Coreana"
+    },
+    {
+      "value": "KR",
+      "description": "Coreana"
+    },
+    {
+      "value": "KW",
+      "description": "Kuwaitiana"
+    },
+    {
+      "value": "KY",
+      "description": "Britannica"
+    },
+    {
+      "value": "KZ",
+      "description": "Kazaka"
+    },
+    {
+      "value": "LA",
+      "description": "Laotiana"
+    },
+    {
+      "value": "LB",
+      "description": "Libanese"
+    },
+    {
+      "value": "LC",
+      "description": "Di St. Lucia"
+    },
+    {
+      "value": "LI",
+      "description": "Del Lichtenst."
+    },
+    {
+      "value": "LK",
+      "description": "Singalese"
+    },
+    {
+      "value": "LR",
+      "description": "Liberiana"
+    },
+    {
+      "value": "LS",
+      "description": "Del Lesotho"
+    },
+    {
+      "value": "LT",
+      "description": "Lituana"
+    },
+    {
+      "value": "LU",
+      "description": "Lussemburghese"
+    },
+    {
+      "value": "LV",
+      "description": "Lettone"
+    },
+    {
+      "value": "LY",
+      "description": "Libica"
+    },
+    {
+      "value": "MA",
+      "description": "Marocchina"
+    },
+    {
+      "value": "MC",
+      "description": "Monegasca"
+    },
+    {
+      "value": "MD",
+      "description": "Moldavo"
+    },
+    {
+      "value": "ME",
+      "description": "serb./mont."
+    },
+    {
+      "value": "MG",
+      "description": "Malgascia"
+    },
+    {
+      "value": "MH",
+      "description": "Isole Marshall"
+    },
+    {
+      "value": "MK",
+      "description": "Macedone"
+    },
+    {
+      "value": "ML",
+      "description": "Maliana"
+    },
+    {
+      "value": "MM",
+      "description": "Myanmar"
+    },
+    {
+      "value": "MN",
+      "description": "Mongola"
+    },
+    {
+      "value": "MO",
+      "description": "Portoghese"
+    },
+    {
+      "value": "MP",
+      "description": "Delle Marianne"
+    },
+    {
+      "value": "MQ",
+      "description": "Francese"
+    },
+    {
+      "value": "MR",
+      "description": "Mauritana"
+    },
+    {
+      "value": "MS",
+      "description": "Montserrat"
+    },
+    {
+      "value": "MT",
+      "description": "Maltese"
+    },
+    {
+      "value": "MU",
+      "description": "Mauriziana"
+    },
+    {
+      "value": "MV",
+      "description": "Maldiviana"
+    },
+    {
+      "value": "MW",
+      "description": "Malawiana"
+    },
+    {
+      "value": "MX",
+      "description": "Messicana"
+    },
+    {
+      "value": "MY",
+      "description": "Malese"
+    },
+    {
+      "value": "MZ",
+      "description": "Mozambicana"
+    },
+    {
+      "value": "NA",
+      "description": "Namibiana"
+    },
+    {
+      "value": "NC",
+      "description": "Francese"
+    },
+    {
+      "value": "NE",
+      "description": "Nigerina"
+    },
+    {
+      "value": "NF",
+      "description": "Isole Norfolk"
+    },
+    {
+      "value": "NG",
+      "description": "Nigeriana"
+    },
+    {
+      "value": "NI",
+      "description": "Nicaraguense"
+    },
+    {
+      "value": "NL",
+      "description": "Olandese"
+    },
+    {
+      "value": "NO",
+      "description": "Norvegese"
+    },
+    {
+      "value": "NP",
+      "description": "Nepalese"
+    },
+    {
+      "value": "NR",
+      "description": "Naurana"
+    },
+    {
+      "value": "NT",
+      "description": ""
+    },
+    {
+      "value": "NU",
+      "description": "Delle IsoleNiue"
+    },
+    {
+      "value": "NZ",
+      "description": "Neozelandese"
+    },
+    {
+      "value": "OM",
+      "description": "Omana"
+    },
+    {
+      "value": "OR",
+      "description": ""
+    },
+    {
+      "value": "PA",
+      "description": "Panamense"
+    },
+    {
+      "value": "PE",
+      "description": "Peruviana"
+    },
+    {
+      "value": "PF",
+      "description": "Francese"
+    },
+    {
+      "value": "PG",
+      "description": "Della Papua NG."
+    },
+    {
+      "value": "PH",
+      "description": "Filippino"
+    },
+    {
+      "value": "PK",
+      "description": "Pakistana"
+    },
+    {
+      "value": "PL",
+      "description": "Polacca"
+    },
+    {
+      "value": "PM",
+      "description": "Francese"
+    },
+    {
+      "value": "PN",
+      "description": "Britannica"
+    },
+    {
+      "value": "PR",
+      "description": "Americana"
+    },
+    {
+      "value": "PS",
+      "description": "Palestina"
+    },
+    {
+      "value": "PT",
+      "description": "Portoghese"
+    },
+    {
+      "value": "PW",
+      "description": "Palau"
+    },
+    {
+      "value": "PY",
+      "description": "Paraguaiana"
+    },
+    {
+      "value": "QA",
+      "description": "Qatariana"
+    },
+    {
+      "value": "RE",
+      "description": "Francese"
+    },
+    {
+      "value": "RO",
+      "description": "Rumena"
+    },
+    {
+      "value": "RS",
+      "description": "serbo"
+    },
+    {
+      "value": "RU",
+      "description": "Russo"
+    },
+    {
+      "value": "RW",
+      "description": "Ruandese"
+    },
+    {
+      "value": "SA",
+      "description": "Saudita"
+    },
+    {
+      "value": "SB",
+      "description": "Delle is.Salom."
+    },
+    {
+      "value": "SC",
+      "description": "Seicellese"
+    },
+    {
+      "value": "SD",
+      "description": "Sudanese"
+    },
+    {
+      "value": "SE",
+      "description": "svedese"
+    },
+    {
+      "value": "SG",
+      "description": "Singaporiana"
+    },
+    {
+      "value": "SH",
+      "description": "Sant\u0027Elena"
+    },
+    {
+      "value": "SI",
+      "description": "Slovena"
+    },
+    {
+      "value": "SJ",
+      "description": "Norvegese"
+    },
+    {
+      "value": "SK",
+      "description": "Slovacca"
+    },
+    {
+      "value": "SL",
+      "description": "Della Sierra L."
+    },
+    {
+      "value": "SM",
+      "description": "Sanmarinese"
+    },
+    {
+      "value": "SN",
+      "description": "Senegalese"
+    },
+    {
+      "value": "SO",
+      "description": "Somala"
+    },
+    {
+      "value": "SR",
+      "description": "Surinamese"
+    },
+    {
+      "value": "ST",
+      "description": "Di São Tomé/Pr."
+    },
+    {
+      "value": "SV",
+      "description": "Salvadoregna"
+    },
+    {
+      "value": "SY",
+      "description": "Siriana"
+    },
+    {
+      "value": "SZ",
+      "description": "Swazi"
+    },
+    {
+      "value": "TC",
+      "description": "Is.Turks/Caicos"
+    },
+    {
+      "value": "TD",
+      "description": "Ciadiana"
+    },
+    {
+      "value": "TF",
+      "description": "Francese"
+    },
+    {
+      "value": "TG",
+      "description": "Togolese"
+    },
+    {
+      "value": "TH",
+      "description": "Tailandese"
+    },
+    {
+      "value": "TJ",
+      "description": "Tagika"
+    },
+    {
+      "value": "TK",
+      "description": "Isole Tokelau"
+    },
+    {
+      "value": "TL",
+      "description": ""
+    },
+    {
+      "value": "TM",
+      "description": "Turkmena"
+    },
+    {
+      "value": "TN",
+      "description": "Tunisina"
+    },
+    {
+      "value": "TO",
+      "description": "Tongana"
+    },
+    {
+      "value": "TP",
+      "description": "Timor orientale"
+    },
+    {
+      "value": "TR",
+      "description": "Turca"
+    },
+    {
+      "value": "TT",
+      "description": "Di Trinidad \u0026 T"
+    },
+    {
+      "value": "TV",
+      "description": "Tuvalana"
+    },
+    {
+      "value": "TW",
+      "description": "Taiwanese"
+    },
+    {
+      "value": "TZ",
+      "description": "Tanzaniana"
+    },
+    {
+      "value": "UA",
+      "description": "Ucraina"
+    },
+    {
+      "value": "UG",
+      "description": "Ugandese"
+    },
+    {
+      "value": "UM",
+      "description": "Is. Minori lon."
+    },
+    {
+      "value": "UN",
+      "description": ""
+    },
+    {
+      "value": "US",
+      "description": "Americana"
+    },
+    {
+      "value": "UY",
+      "description": "Uruguaiana"
+    },
+    {
+      "value": "UZ",
+      "description": "Uzbeca"
+    },
+    {
+      "value": "VA",
+      "description": "C. del Vaticano"
+    },
+    {
+      "value": "VC",
+      "description": "Di St.Vincent"
+    },
+    {
+      "value": "VE",
+      "description": "Venezuelana"
+    },
+    {
+      "value": "VG",
+      "description": "Britannica"
+    },
+    {
+      "value": "VI",
+      "description": "Americana"
+    },
+    {
+      "value": "VN",
+      "description": "Vietnamita"
+    },
+    {
+      "value": "VU",
+      "description": "Di Vanauatu"
+    },
+    {
+      "value": "WF",
+      "description": "Wallis,Futuna"
+    },
+    {
+      "value": "WS",
+      "description": "Samoana"
+    },
+    {
+      "value": "YE",
+      "description": "Yemenita"
+    },
+    {
+      "value": "YT",
+      "description": "Francese"
+    },
+    {
+      "value": "ZA",
+      "description": "Sudafricana"
+    },
+    {
+      "value": "ZM",
+      "description": "Zambiana"
+    },
+    {
+      "value": "ZW",
+      "description": "Zimbabwana"
+    }
+  ],
+  "TYPE": [
+    {
+      "value": "A",
+      "description": ""
+    },
+    {
+      "value": "C",
+      "description": ""
+    }
+  ],
+  "ZZPET_TPDCSTSRV": [
+    {
+      "value": "Z001",
+      "description": "Service Dedicato"
+    },
+    {
+      "value": "Z002",
+      "description": "Service Condiviso"
+    }
+  ],
+  "ZZPET_UNTMIS": [
+    {
+      "value": "SQMT",
+      "description": "Metri Quadrati"
+    },
+    {
+      "value": "SQFT",
+      "description": "Piedi Quadrati"
+    }
+  ],
+  "DAY": [
+    {
+      "value": "1",
+      "description": ""
+    },
+    {
+      "value": "2",
+      "description": ""
+    },
+    {
+      "value": "3",
+      "description": ""
+    },
+    {
+      "value": "4",
+      "description": ""
+    },
+    {
+      "value": "5",
+      "description": ""
+    },
+    {
+      "value": "6",
+      "description": ""
+    },
+    {
+      "value": "7",
+      "description": ""
+    }
+  ]
+}
