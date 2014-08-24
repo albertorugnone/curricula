@@ -2,7 +2,7 @@ var fs = require('fs');
 var express = require('express');
 var services = express.Router();
 
-var version = '/v1';
+var version = '/v3';
 
 var paths = {
   "data" : {

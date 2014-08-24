@@ -13,6 +13,7 @@ ngClassify  = require 'gulp-ng-classify'
 coffeelint  = require 'gulp-coffeelint'
 rimraf      = require 'gulp-rimraf'
 nodemon     = require 'gulp-nodemon'
+taskList    = require 'gulp-task-listing'
 
 paths =
   appJs: ['./app/**/*.coffee','./app/**/*.js']
@@ -39,6 +40,14 @@ paths =
   ]
   index: ['./app/index.jade']
 
+
+
+# Add a task to render the output
+gulp.task 'help', taskList
+
+
+# Clean all dist folder
+# rimraf is set to avoi reading (deleting faster) and force delection
 gulp.task 'clean', ->
   gulp.src 'dist/'
     .pipe rimraf
@@ -120,17 +129,21 @@ gulp.task 'connect', ->
         )()
       ]
 
-gulp.task "backend", ->
-  nodemon(
-    script: "backend/www"
-    ext: "html js json"
-    nodeArgs: ["--debug"]
-    env:
-      NODE_ENV: "development"
-  ).on "restart", ->
-    console.log "restarted!"
-    return
-  return
+#gulp.task "backend", ->
+  #nodemon(
+    #restartable: "rs"
+    #ignore: [".git","node_modules/**/node_modules"]
+    #script: "backend/www"
+    #ext: "jade js json"
+    #nodeArgs: ["debug"]
+    #env:
+      #NODE_ENV: "development"
+    #exec:
+      #"node-debug"
+  #).on "restart", ->
+    #console.log "restarted!"
+    #return
+  #return
 
 
 gulp.task 'watch', ->
@@ -143,18 +156,18 @@ gulp.task 'watch', ->
     gulp.src event.path
       .pipe connect.reload()
   # watch files to build
-  gulp.watch [
+  gulp.watch [ #if changes it calls appJs
     './app/**/*.coffee',
     './app/**/*.js'],
     ['appJs']
-  gulp.watch [
+  gulp.watch [ #if changes it calls templates
     '!./app/index.jade',
     '!./app/index.html',
     './app/**/*.jade',
     './app/**/*.html'],
     ['templates']
-  gulp.watch ['./app/**/*.less','./app/**/*.css'], ['appCss']
-  gulp.watch ['./app/index.jade', './app/index.html'], ['index']
+  gulp.watch ['./app/**/*.less','./app/**/*.css'], ['appCss'] #if changes if calls appCss
+  gulp.watch ['./app/index.jade', './app/index.html'], ['index'] #if changes if calls index
   return
 
 gulp.task 'libMap', ->
