@@ -1,0 +1,9 @@
+{
+  "script": "www",
+  "ext": "js jade json",
+  "env":
+    {
+      "NODE_ENV": "development"
+    } ,
+  "nodeArgs": ["debug"]
+}
