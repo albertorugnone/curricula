@@ -40,6 +40,11 @@ paths =
   ]
   index: ['./app/index.jade']
 
+  test :
+    e2e : ['test/e2e/']
+    e2eConf : ['test/protractor.conf.coffee']
+    unit: ['test/unit/']
+
 
 
 # Add a task to render the output
@@ -128,6 +133,13 @@ gulp.task 'connect', ->
           proxy options
         )()
       ]
+
+
+
+gulp.task 'e2e', ->
+  gulp.src ["#{paths.test.e2e}/*_spec.coffee","#{paths.test.e2e}/*_spec.js"]
+  .pipe protractor # tests are specified in protractorConfiguration file
+    configFile: paths.test.e2eConf
 
 #gulp.task "backend", ->
   #nodemon(
